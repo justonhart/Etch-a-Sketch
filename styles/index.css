@@ -1,20 +1,33 @@
 body{
     justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to right, gray, white, gray);
+}
+h1{
+    font-family: monospace;
+    font-size: 36pt;
+}
+input{
+    margin : 10px;
+    font-size: 16pt;
+    background-color: white;
+    border-color: black;
+    font-family: monospace;
 }
 
 #gridContainer{
-    display: flex;
-    background-color: red;
+    background-color: rgb(161, 161, 161);
     width: 80vmin;
     height: 80vmin;
     margin-left: auto;
     margin-right: auto;
-}
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-width: 3px;
+    justify-content: space-around;
+    border-color: rgb(161, 161, 161);
 
-.gridContent{
-
-}
-
-.hovered{
-    background-color: black;
 }
