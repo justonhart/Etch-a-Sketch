@@ -31,7 +31,7 @@ function buttonPrompt(){
     if(!input)
         return;
         
-    if(input < 1 || input > 100)
+    if(typeof +input !== "number" || input < 1 || input > 100 || input % 1)
         return buttonPrompt();
     
     buildGrid(input);
